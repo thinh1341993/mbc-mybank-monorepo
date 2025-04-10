@@ -1,0 +1,15 @@
+{
+  "expo": {
+    "name": "MyBank",
+    "slug": "mbc-mybank",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/launch_screen.png",
+    "splash": {
+      "image": "./assets/images/launch_screen.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#007AFF"
+    },
+    "assetBundlePatterns": ["**/*"]
+  }
+}

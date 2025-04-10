@@ -1,1 +1,16 @@
-{}
+{
+  "name": "mbc-mybank-monorepo",
+  "private": true,
+  "workspaces": [
+    "apps/*",
+    "packages/*",
+    "packages/config/*"
+  ],
+  "devDependencies": {
+    "turbo": "^1.10.13"
+  },
+  "scripts": {
+    "dev": "turbo run dev",
+    "lint": "turbo run lint"
+  }
+}
